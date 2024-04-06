@@ -29,13 +29,14 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I'm a passionate Engineer at Cisco, deeply
-          immersed in programming languages like C, C++, Python, and more.
-          Beyond the tech realm, I'm an avid football player, relishing every
-          moment on the field with friends. Singing is another passion of mine,
-          despite my humble skills in that area. Continuously fueling my passion
-          for technology and exploring my interests beyond, I'm committed to
-          both personal and professional growth.
+          I'm a passionate Engineer at Cisco, deeply immersed in programming
+          languages like C, C++, Python, Java and I thrive in coding challenges. I'm
+          also proficient in ReactJS for web frontend development, along with
+          frameworks like Node.js and Flask for backend, adding versatility to
+          my skill set. Beyond my professional pursuits, I'm deeply into
+          building projects that push boundaries and explore new horizons.
+          Off-duty, you'll find me on the football field, but my true passion
+          lies in crafting innovative solutions through coding.
         </p>
 
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between py-20">
