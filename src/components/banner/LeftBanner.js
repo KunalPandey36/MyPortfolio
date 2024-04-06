@@ -38,7 +38,7 @@ const LeftBanner = () => {
           both personal and professional growth.
         </p>
 
-        <div className="flex justify-between py-20">
+        <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between py-20">
           <div>
             <h2 className="text-base uppercase font-titleFont mb-4">
               Find me in

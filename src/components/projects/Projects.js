@@ -10,7 +10,7 @@ const Projects = () => {
     <div className='flex justify-center items-center text-center'>
     <Title title="Visit My Portfolio" des="My Projects" />
     </div>
-    <div className='grid grid-cols-3 gap-14'>
+    <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjectCard title="Market-Place" des="Marketplace is a dynamic full-stack web development project enabling users to buy and sell items through a bidding system. Built with React on the frontend and Express on the backend, it offers a seamless online marketplace experience." image = {MarketPlace} gitlink = "https://github.com/KunalPandey36/Market-Place"/>
         <ProjectCard title="NewsMonkey" des="NewsMonkey is a comprehensive news website offering up-to-date news across all sections. Powered by React and Express.js, it seamlessly integrates with APIs to deliver the latest news articles, ensuring users stay informed on a wide range of topics." image = {nwem} gitlink="https://github.com/KunalPandey36/NewsMonkey"/>
         <ProjectCard title="Student Sentiment Analysis" des="Using NLP it will analyze the sentiment of the students comment. This project was on the data provided by Thoughtfocus." image = {Sentiment} gitlink="https://github.com/KunalPandey36/Student_Sentiment_Analysis"/>

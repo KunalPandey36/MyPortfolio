@@ -44,8 +44,8 @@ const Contact = () => {
         <Title title="Contact" des="Contact with me!" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex justify-between">
-          <div className=" w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne">
+        <div className="w-full h-auto flex flex-col mdl:flex-row gap-4 mdl:gap-0 mdl:justify-between ">
+          <div className="w-full md:w-[60%] mdl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne">
             <img
               className="w-full h-64 object-cover rounded-lg mb-4 py-8"
               src={handshake}
@@ -79,7 +79,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div className=" w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne">
+          <div className=" w-full md:w-[80%] mdl:w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne">
             <form className="w-full flex flex-col gap-4 py-5">
               {errMsg && (
                 <p

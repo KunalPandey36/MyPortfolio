@@ -9,7 +9,7 @@ const Card = ({title,des,icon}) => {
         <div className='flex flex-col gap-8 h-full translate-y-20 group-hover:translate-y-0 transition-transform duration-500'>
             <span className='text-5xl text-designColor'>{icon}</span>
             <div className='flex flex-col gap-6'>
-            <h2 className=' text-2xl font-titleFont font-bold text-gray-300'>{title}</h2> 
+            <h2 className=' text-xl md:text-2xl font-titleFont font-bold text-gray-300'>{title}</h2> 
             <p className='base'>{des}</p>
             <span className='text-2xl text-designColor'>
                 
