@@ -18,7 +18,7 @@ const LeftBanner = () => {
         <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
-          <span className="text-designColor capitalize">Kunal Pandey</span>
+          <span className="text-designColor capitalize">Kunal</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -35,14 +35,13 @@ const LeftBanner = () => {
           frameworks like Node.js and Flask for backend, adding versatility to
           my skill set. Beyond my professional pursuits, I'm deeply into
           building projects that push boundaries and explore new horizons.
-          Off-duty, you'll find me on the football field, but my true passion
-          lies in crafting innovative solutions through coding.
+          Off-duty, you'll find me on the football field or watching football.
         </p>
 
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between py-20">
           <div>
             <h2 className="text-base uppercase font-titleFont mb-4">
-              Find me in
+              Find me on
             </h2>
             <div className="flex gap-4">
               <a href="https://www.linkedin.com/in/kunal-pandey-6599b1190/">

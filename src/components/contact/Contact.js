@@ -39,9 +39,9 @@ const Contact = () => {
     }
   };
   return (
-    <section id="contact">
+    <section id="contact" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="Contact" des="Contact with me!" />
+        <Title title="Contact" des="Connect with me!" />
       </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col mdl:flex-row gap-4 mdl:gap-0 mdl:justify-between ">

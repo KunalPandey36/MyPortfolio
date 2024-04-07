@@ -6,7 +6,7 @@ const Achievement = () => {
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{duration:.5}}} className='w-full flex flex-col'>
         <div className="py-12 font-titleFont text-center">
-          <p className="text-sm text-designColor tracking-[4px]">2017-present</p>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2017-present</p> */}
           <h2 className="text-4xl font-bold">Achievements</h2>
         </div>
         <div className="mt-14 w-full lg:w-1/2 h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">

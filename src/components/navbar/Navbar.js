@@ -80,7 +80,7 @@ function Navbar() {
                   ))}
                 </ul>
                 <div className="flex flex-col gap-2 py-6">
-                <span><h1 className="text-xl font-bodyFont uppercase text-gray-400 tracking-wide px-4">Find me in</h1></span>
+                <span><h1 className="text-xl font-bodyFont uppercase text-gray-400 tracking-wide px-4">Find me on</h1></span>
                 <div className="flex gap-4">
                   <a href="https://www.linkedin.com/in/kunal-pandey-6599b1190/">
                     <span className="bannerIcon">

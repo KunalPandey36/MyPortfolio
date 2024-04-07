@@ -8,8 +8,8 @@ const Education = () => {
 
         {/* Part One */}
         <div className="py-12 font-titleFont text-center">
-          <p className="text-sm text-designColor tracking-[4px]">2018-2022</p>
-          <h2 className="text-4xl font-bold">Education Quality</h2>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2018-2022</p> */}
+          <h2 className="text-4xl font-bold">Educational Background</h2>
         </div>
 
         {/* Part Two */}
