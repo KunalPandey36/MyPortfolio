@@ -1,4 +1,4 @@
-import OIP from "./IMG_6845.jpg";
+import OIP from "./Banner.jpg";
 import nwem from "./Newsmonkey.png";
 import Myde from "./MyD.jpg";
 import Sentiment from "./Decision-Tree-Algorithm.jpg";

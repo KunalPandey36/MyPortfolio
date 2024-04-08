@@ -14,9 +14,9 @@ const Banner = () => {
         <LeftBanner />
       </div>
 
-      <div className="w-full lgl:w-1/2 flex justify-center items-center relative shadow-shadowOne">
+      <div className="w-full lgl:w-3/4 flex justify-center items-center relative shadow-shadowOne">
         <img
-          className="w-[300px] h-[400px] lgl:w-[550px] lgl:h-[680px] z-10 shadow-lg"
+          className="w-[250px] h-[400px] lgl:w-[350px] lgl:h-[680px] z-10 shadow-lg"
           src={OIP}
           alt="Kunal"
         />
